@@ -1,5 +1,4 @@
 import React, { useState, useContext } from 'react';
-import {AccountDetail} from './AccountDetail';
 
 // Import the Global state
 import { GlobalContext } from '../Context/GlobalState';
@@ -14,7 +13,7 @@ export const AddTransaction = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        if (Number(transactionAmount==0)){
+        if (Number(transactionAmount===0)){
             alert("please Enter A valid Amount");
             return false;
         }
