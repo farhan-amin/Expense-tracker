@@ -13,10 +13,10 @@ export const AddTransaction = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        if (transactionAmount == 0){
+       /* if (transactionAmount == 0){
             alert("please Enter A valid Amount");
             return false;
-        }
+        }*/
 
         const newTransaction = {
             id: new Date().getTime(), description,
