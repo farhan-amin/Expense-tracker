@@ -12,7 +12,7 @@ function App() {
     
     <GlobalProvider>
       <div className='header'>
-    <Header />
+          <Header />
     <div className= 'container'>
       <Balance />
       <AccountDetail />

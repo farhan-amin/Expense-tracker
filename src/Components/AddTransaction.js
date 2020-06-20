@@ -13,7 +13,7 @@ export const AddTransaction = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        if (Number(transactionAmount===0)){
+        if (Number(transactionAmount==0)){
             alert("please Enter A valid Amount");
             return false;
         }
@@ -44,7 +44,7 @@ export const AddTransaction = () => {
                     />
                 </div>
                 <div className="form-control">
-                    <label htmlFor="transactionamount">
+                    <label  htmlFor="transactionamount">
                         Transaction Amount
                         <br />
                         <small>(positive Value For Income: Negative For Expense)</small>
