@@ -13,7 +13,7 @@ export const AddTransaction = () => {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        if (Number(transactionAmount==0)){
+        if (Number(transactionAmount === 0)){
             alert("please Enter A valid Amount");
             return false;
         }
